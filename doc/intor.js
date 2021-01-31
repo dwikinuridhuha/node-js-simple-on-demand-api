@@ -9,8 +9,8 @@ const intro = {
             "url": "https://www.gnu.org/licenses/gpl-2.0.html"
         }
     },
-    // "host": "localhost:8000", 
-    "host": `node-js-simple-on-demand-api.herokuapp.com`,
+    "host": "localhost:8000", //buat local aja
+    // "host": `node-js-simple-on-demand-api.herokuapp.com`,
     "basePath": "/",
     "tags": [{
         "name": "on demand",

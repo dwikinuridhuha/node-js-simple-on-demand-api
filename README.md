@@ -1,19 +1,32 @@
-# prilaku setiap role
+# link Demo
+https://node-js-simple-on-demand-api.herokuapp.com/
+
+# Role
 customer
-- CRUD memesan produk
-- konfirmasi memesan
-- melihat status pesanan
+- Bertugas sebagai membeli product yang telah di pesan dan nanti nya akan di kirim oleh 	“Driver”
+- Dapat membuat, mengedit, membaca dan menghapus order
 
 driver
-- random mendapatkan pesanan
-- CRU status pesanan
+- Bertugas sebagai pengantar barang yang telah di pesan oleh “Customer”
+- mengedit order untuk menjadi selesai terkirim atau sedang dalam pengiriman.
 
 merchant
-- CRUD produk
-- melihat produk yang terjual
+- Bertugas sebagai membuat product yang nanti nya akan di beli oleh “Customer”
+- Dapat membuat, mengedit, membaca dan menghapus product
 
 admin
-- R semua hal yang bisa di lakukan customer, driver, merchant
+- Bertugas sebagai pengawas jalan nya system
+- Dapat membaca product atau order
 
 superAdmin
-- CRUD semua hal yang bisa di lakukan customer, driver, merchant
+- Bertugas sebagai menangani kejadian darurat
+- Dapat membuat, mengedit, membaca dan menghapus product atau order
+
+# Melakukan testing
+npm test atau npm run test-watch
+
+# Melakukan melihat hasil test
+npm run test-cover
+
+# untuk menjalankan aplikasi
+npm start

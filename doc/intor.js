@@ -10,7 +10,7 @@ const intro = {
         }
     },
     // "host": "localhost:8000", 
-    "host": "https://node-js-simple-on-demand-api.herokuapp.com/",
+    "host": "node-js-simple-on-demand-api.herokuapp.com",
     "basePath": "/",
     "tags": [{
         "name": "on demand",
